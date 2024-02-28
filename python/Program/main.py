@@ -68,6 +68,7 @@ for kendaraan in garasi1.list_kendaraan:
     print("Tahun Produksi   :", kendaraan.getTahunProduksi())
     print("Warna            :", kendaraan.getWarna())
     if isinstance(kendaraan, Car):
+        print("Jumlah Kursi     :", kendaraan.getJumlahKursi())
         print("Jumlah Pintu     :", kendaraan.getJumlahPintu())
     elif isinstance(kendaraan, Motorcycle):
         print("Jenis Motor      :", kendaraan.getJenisMotor())
